@@ -1,7 +1,7 @@
 # User-Registration
 # Basic Node.js Login System
 
-A simple Node.js login system with user authentication using Express.js and Passport.js.
+A simple Node.js login system with user authentication using Express.js and mongoose.
 
 ## Getting Started
 
@@ -23,10 +23,12 @@ These instructions will help you set up and run the project on your local machin
 
 cd practice
 
-
-### Install the project dependencies ans Start the Server 
+### Install the project dependencies  
 
 npm install
+
+### Start the Server 
+
 npm start 
 
 
