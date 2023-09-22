@@ -1,0 +1,28 @@
+<%- include('../partials/base') %>
+<%- include('../partials/header') %>
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-8">
+            <div class="jumbotron bg-primary text-white my-5">
+                <h1>Register</h1>
+                <hr>
+                <form action="/register" method="POST">
+                <div class="form-group">
+                    <label for="myname">Name :</label>
+                    <input type="text" placeholder="Enter Your Name" name="name" class="form-control" autocomplete="off">
+                    <label for="mail">Email :</label>
+                    <input type="email" placeholder="Enter Email" name="email" class="form-control" autocomplete="off">
+                    <label for="pass1">Password :</label>
+                    <input type="password" placeholder="*********" name="pass1" class="form-control" >
+                    <label for="pass2">Confirm Password :</label>
+                    <input type="password" placeholder="********" name="pass2" class="form-control">                    
+                    <input type="submit" value="Submit" class="from-control btn btn-success my-4">
+                </div>
+                </form>
+            </div>
+            
+        </div>
+    </div>
+</div>
+<%- include('../partials/footer') %>
+    

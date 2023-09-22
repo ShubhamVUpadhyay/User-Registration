@@ -1,0 +1,24 @@
+<%- include('../partials/base') %>
+<%- include('../partials/header') %>
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-6">
+            <div class="jumbotron bg-primary text-white my-5">
+                <h1>Login</h1>
+                <hr>
+                <form action="/login" method="POST">
+                <div class="form-group">
+                    <label for="mail">Email :</label>
+                    <input type="email" placeholder="Enter Email" name="email" class="form-control" autocomplete="off">
+                    <label for="pass">Password :</label>
+                    <input type="password" placeholder="********" name="pass2" class="form-control">
+                    <input type="submit" value="Submit" class="from-control btn btn-success my-4">
+                </div>
+                </form>
+            </div>
+            
+        </div>
+    </div>
+</div>
+<%- include('../partials/footer') %>
+    
